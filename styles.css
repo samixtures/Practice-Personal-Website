@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .nav_bar {
   list-style-type: none;
   margin: 0;
