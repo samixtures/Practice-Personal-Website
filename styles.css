@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  background-color: #50c763;
 }
 
 .nav_bar {
@@ -45,7 +46,7 @@ html {
 
 .project_element {
   border-radius: 20px;
-  background-color: #d8c3c3;
+  background-color: #0a7a2f;
   text-align: center;
   width: 550px;
   height: auto;
