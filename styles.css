@@ -60,6 +60,11 @@
   padding-left: 30px;
 }
 
+.project_element .proj2 {
+  height: 500px;
+  width: auto;
+}
+
 .project_element .proj3 {
   height: 400px;
   width: auto;
