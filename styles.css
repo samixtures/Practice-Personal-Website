@@ -51,12 +51,22 @@
 
 .project_element img {
   width: auto;
-  height: 450px;
+  height: 400px;
 }
 
 .project_element p {
   text-align: left;
   font-size: 50%;
   padding-left: 30px;
+}
+
+.project_element .proj3 {
+  height: 400px;
+  width: auto;
+}
+
+.project_element .proj4 {
+  height: auto;
+  width: 550px;
 }
 /*# sourceMappingURL=styles.css.map */
