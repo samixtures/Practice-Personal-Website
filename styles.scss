@@ -4,10 +4,12 @@
   font-size: 300%;
   text-align: center;
   position: sticky;
+  padding-bottom: 50px;
+  //background-color: #ffdfd3;
   li {
     //we have to put "display: inline" without the a
     display: inline;
-    padding: 9px 90px 9px; //top, right/left, bot
+    padding: 0px 90px 0px; //top, right/left, bot. Changing top and bot do nothing
   }
   li a {
     // "a" just means for the a tag
@@ -17,4 +19,37 @@
   li a:hover {
     background-color: #e27a51;
   }
+}
+
+.intro {
+  font-size: 300%;
+  padding-left: 500px;
+  padding-right: 500px;
+  p {
+    font-size: 60%;
+    text-align: left;
+  }
+}
+.projects {
+  font-size: 300%;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+.project_element {
+  border-radius: 20px;
+  background-color: rgb(216, 195, 195);
+  text-align: center;
+  width: 550px;
+  height: auto;
+  img {
+    width: auto;
+    height: 450px;
+  }
+  p {
+    text-align: left;
+    font-size: 50%;
+    padding-left: 30px;
+  }
+  margin: 0;
+  padding: 0;
 }

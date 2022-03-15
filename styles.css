@@ -5,11 +5,12 @@
   text-align: center;
   position: -webkit-sticky;
   position: sticky;
+  padding-bottom: 50px;
 }
 
 .nav_bar li {
   display: inline;
-  padding: 9px 90px 9px;
+  padding: 0px 90px 0px;
 }
 
 .nav_bar li a {
@@ -19,5 +20,43 @@
 
 .nav_bar li a:hover {
   background-color: #e27a51;
+}
+
+.intro {
+  font-size: 300%;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.intro p {
+  font-size: 60%;
+  text-align: left;
+}
+
+.projects {
+  font-size: 300%;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.project_element {
+  border-radius: 20px;
+  background-color: #d8c3c3;
+  text-align: center;
+  width: 550px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.project_element img {
+  width: auto;
+  height: 450px;
+}
+
+.project_element p {
+  text-align: left;
+  font-size: 50%;
+  padding-left: 30px;
 }
 /*# sourceMappingURL=styles.css.map */
