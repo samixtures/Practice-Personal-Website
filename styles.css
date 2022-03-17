@@ -79,4 +79,10 @@ html {
   height: auto;
   width: 550px;
 }
+
+.experience {
+  font-size: 300%;
+  padding-left: 500px;
+  padding-right: 500px;
+}
 /*# sourceMappingURL=styles.css.map */
