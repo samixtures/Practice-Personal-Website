@@ -37,45 +37,65 @@ html {
     margin: -50px 50px 0px 50px;
   }
 }
-.projects {
+.proj-h2 {
   font-size: 3em;
   text-align: center;
   align-items: center;
+}
+.proj-container {
+  // font-size: 3em;
+  // text-align: center;
+  // align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   // background-color: rgb(238, 213, 167);
 }
 .project_element {
   border-radius: 20px;
   background-color: rgb(10, 122, 47);
   text-align: center;
-  width: 550px;
-  max-width: 700px;
-  margin: auto;
-  width: 50%;
+  width: 35rem;
   img {
-    width: auto;
-    height: 400px;
+    max-width: 450px;
+    max-height: 300px;
+  }
+  h4 {
+    font-size: 3em;
   }
   p {
-    text-align: left;
-    font-size: 50%;
-    padding-left: 30px;
+    font-size: 1.5rem;
   }
-  margin: 0;
-  padding: 0;
+  margin: 30px;
+  // width: 550px;
+  // max-width: 700px;
+  // margin: auto;
+  // width: 50%;
+  // img {
+  //   width: auto;
+  //   height: 400px;
+  // }
+  // p {
+  //   text-align: left;
+  //   font-size: 50%;
+  //   padding-left: 30px;
+  // }
+  // margin: 0;
+  // padding: 0;
 
-  .proj2 {
-    height: 500px;
-    width: auto;
-  }
-  .proj3 {
-    height: 400px;
-    width: auto;
-  }
-  .proj4 {
-    height: auto;
-    width: 550px;
-  }
-  margin: auto; //Literally only centered my div after I put it all the way at the bottom. Broooooooooooo
+  // .proj2 {
+  //   height: 500px;
+  //   width: auto;
+  // }
+  // .proj3 {
+  //   height: 400px;
+  //   width: auto;
+  // }
+  // .proj4 {
+  //   height: auto;
+  //   width: 550px;
+  // }
+  // margin: auto; //Literally only centered my div after I put it all the way at the bottom. Broooooooooooo
 }
 .experience {
   font-size: 3em;

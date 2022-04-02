@@ -42,7 +42,7 @@ html {
   margin: -50px 50px 0px 50px;
 }
 
-.projects {
+.proj-h2 {
   font-size: 3em;
   text-align: center;
   -webkit-box-align: center;
@@ -50,43 +50,36 @@ html {
           align-items: center;
 }
 
+.proj-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 .project_element {
   border-radius: 20px;
   background-color: #0a7a2f;
   text-align: center;
-  width: 550px;
-  max-width: 700px;
-  margin: auto;
-  width: 50%;
-  margin: 0;
-  padding: 0;
-  margin: auto;
+  width: 35rem;
+  margin: 30px;
 }
 
 .project_element img {
-  width: auto;
-  height: 400px;
+  max-width: 450px;
+  max-height: 300px;
+}
+
+.project_element h4 {
+  font-size: 3em;
 }
 
 .project_element p {
-  text-align: left;
-  font-size: 50%;
-  padding-left: 30px;
-}
-
-.project_element .proj2 {
-  height: 500px;
-  width: auto;
-}
-
-.project_element .proj3 {
-  height: 400px;
-  width: auto;
-}
-
-.project_element .proj4 {
-  height: auto;
-  width: 550px;
+  font-size: 1.5rem;
 }
 
 .experience {
