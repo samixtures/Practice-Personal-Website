@@ -27,24 +27,30 @@ html {
 
 .intro {
   font-size: 300%;
-  padding-left: 500px;
-  padding-right: 500px;
+  text-align: center;
   p {
     font-size: 60%;
     text-align: left;
   }
+  .meImage {
+    float: left;
+    margin: -50px 50px 0px 50px;
+  }
 }
 .projects {
   font-size: 300%;
-  padding-left: 500px;
-  padding-right: 500px;
+  text-align: center;
+  align-items: center;
+  // background-color: rgb(238, 213, 167);
 }
 .project_element {
   border-radius: 20px;
   background-color: rgb(10, 122, 47);
   text-align: center;
   width: 550px;
-  height: auto;
+  max-width: 700px;
+  margin: auto;
+  width: 50%;
   img {
     width: auto;
     height: 400px;
@@ -69,6 +75,7 @@ html {
     height: auto;
     width: 550px;
   }
+  margin: auto; //Literally only centered my div after I put it all the way at the bottom. Broooooooooooo
 }
 .experience {
   font-size: 300%;

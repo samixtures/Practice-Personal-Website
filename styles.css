@@ -29,8 +29,7 @@ html {
 
 .intro {
   font-size: 300%;
-  padding-left: 500px;
-  padding-right: 500px;
+  text-align: center;
 }
 
 .intro p {
@@ -38,10 +37,17 @@ html {
   text-align: left;
 }
 
+.intro .meImage {
+  float: left;
+  margin: -50px 50px 0px 50px;
+}
+
 .projects {
   font-size: 300%;
-  padding-left: 500px;
-  padding-right: 500px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .project_element {
@@ -49,9 +55,12 @@ html {
   background-color: #0a7a2f;
   text-align: center;
   width: 550px;
-  height: auto;
+  max-width: 700px;
+  margin: auto;
+  width: 50%;
   margin: 0;
   padding: 0;
+  margin: auto;
 }
 
 .project_element img {
