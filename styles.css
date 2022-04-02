@@ -6,7 +6,7 @@ html {
 .nav_bar {
   list-style-type: none;
   margin: 0;
-  font-size: 300%;
+  font-size: 3em;
   text-align: center;
   position: -webkit-sticky;
   position: sticky;
@@ -28,12 +28,12 @@ html {
 }
 
 .intro {
-  font-size: 300%;
+  font-size: 3em;
   text-align: center;
 }
 
 .intro p {
-  font-size: 60%;
+  font-size: 0.6em;
   text-align: left;
 }
 
@@ -43,7 +43,7 @@ html {
 }
 
 .projects {
-  font-size: 300%;
+  font-size: 3em;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -57,7 +57,7 @@ html {
   width: 550px;
   max-width: 700px;
   margin: auto;
-  width: 50%;
+  width: 0.5em;
   margin: 0;
   padding: 0;
   margin: auto;
@@ -70,7 +70,7 @@ html {
 
 .project_element p {
   text-align: left;
-  font-size: 50%;
+  font-size: 0.5em;
   padding-left: 30px;
 }
 
