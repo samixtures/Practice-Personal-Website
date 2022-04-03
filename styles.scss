@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background-color: rgb(80, 199, 99);
+  background-color: rgb(33, 199, 255);
 } //When we click nav buttons it smooths scrolls it down
 .nav_bar {
   list-style-type: none;
@@ -25,6 +25,13 @@ html {
   }
 }
 
+h1 {
+  font-size: 5em;
+  text-align: center;
+}
+#intro {
+  margin-top: 0;
+}
 .intro {
   font-size: 3em;
   text-align: center;
@@ -37,10 +44,15 @@ html {
     margin: -50px 50px 0px 50px;
   }
 }
+
+.buffer {
+  height: 100px;
+}
+
 .proj-h2 {
-  font-size: 3em;
+  font-size: 72px;
   text-align: center;
-  align-items: center;
+
 }
 .proj-container {
   // font-size: 3em;
@@ -53,7 +65,7 @@ html {
 }
 .project_element {
   border-radius: 20px;
-  background-color: rgb(10, 122, 47);
+  background-color: rgb(244, 244, 244);
   text-align: center;
   width: 35rem;
   img {
@@ -101,4 +113,34 @@ html {
   font-size: 3em;
   padding-left: 500px;
   padding-right: 500px;
+}
+
+
+//CLOUD CODE. DON'T KNOW WHAT IT DOES
+.cloud{ 
+   margin-top:70px;
+   width:350px;
+   height:120px;
+   background:#ECEFF1;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:100px;
+}
+.cloud::after, .cloud::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+}
+.cloud::after{
+    width:100px;
+    height:100px;
+    top:-220px;
+    left:50px;
+}
+.cloud::before{
+    width:180px;
+    height:180px;
+    top: -70px;
+    left:130px;
 }
