@@ -3,6 +3,14 @@ html {
   background-color: #21c7ff;
 }
 
+h1, h2, h3, h4 {
+  font-family: Oswald,Helvetica,Arial,sans-serif;
+}
+
+body {
+  font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
 .nav_bar {
   list-style-type: none;
   margin: 0;
