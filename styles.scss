@@ -1,3 +1,13 @@
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+//NORMALLY UNCCESSARY, BUT INCLUDED DUE TO BOOTSTRAP ^
 html {
   scroll-behavior: smooth;
   background-color: rgb(33, 199, 255);
@@ -5,10 +15,14 @@ html {
 
 h1, h2, h3, h4 {
   font-family: Oswald,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: black;
 }
+
 
 body {
   font-family: Lato,Helvetica,Arial,sans-serif;
+  background-color: #21c7ff;
 }
 
 .nav_bar {
@@ -40,6 +54,7 @@ h1 {
 }
 #intro {
   margin-top: 0;
+  font-size: 72px;
 }
 .intro {
   font-size: 3em;
