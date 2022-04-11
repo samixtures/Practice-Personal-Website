@@ -47,13 +47,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 60vh;
 }
 
 /*Project Grid*/
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 500px));
+    grid-template-columns: repeat(auto-fill, minmax(450px, 550px));
     gap: 20px;
     /* justify-items: center; */
     text-align: center;
